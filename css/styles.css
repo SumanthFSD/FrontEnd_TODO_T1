@@ -1,0 +1,60 @@
+
+* {
+    font-size: larger;
+    font-family: Arial;
+}
+
+body{
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    vertical-align: middle;
+    background-image: url("../assets/BGI_2.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    justify-items: left;
+}
+
+
+input{
+    width: 80%;
+    height: 15%;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: rgb(189, 187, 187);
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+    height: 15%;
+    background: transparent;
+    border: none;
+}
+
+input:focus{
+    background-color: rgb(223, 221, 221);
+}
+
+div{
+    height: 90%;
+    width: 60%;
+    top: 50%;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    /* align-items: center; */
+    flex-direction: column;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
