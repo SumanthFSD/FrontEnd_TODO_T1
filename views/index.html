@@ -13,6 +13,7 @@
         <div id="todo-list-div">
             <!-- list container -->
             <div id="form">
+                <button id="todo-icon"><i class="fas fa-clipboard-list fa-2x"></i></button>
                 <input oninput ="showBtn()" id="task" type="text" placeholder="Type your task here...">
                 <button onclick="add_task()" id="add-task" type="submit" >
                     <i class="fas fa-plus-circle"></i>
@@ -21,7 +22,9 @@
             <small></small>
             <hr>
             <div id="list-container">
-                <ul id="todo-list"></ul>
+                <ul id="todo-list">
+                    <!-- li items go here -->
+                </ul>
             </div>
             <hr>
             <small id="footer">
