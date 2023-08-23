@@ -40,9 +40,9 @@ ul{
 }
 
 .list-item {
+    margin: auto;
     /* position: inherit; */
     /* margin-left: -500px; */
-    /* align-items: center; */
     display: flex; /* Use flexbox layout to control spacing */
    /* Align items vertically */
     justify-content: space-between; /* Add a gap between elements */
